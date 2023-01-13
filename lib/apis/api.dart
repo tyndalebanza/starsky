@@ -1,0 +1,1 @@
+const String URL_REGISTRATION="http://3.25.6.123/scripts/vg_register_user.php";
