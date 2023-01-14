@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:starsky/Screens/signin.dart';
 import 'package:starsky/Screens/home.dart';
+import 'package:starsky/Screens/new_star.dart';
 
 void main() => runApp(MyApp());
 
@@ -30,6 +31,7 @@ class _MyAppState extends State<MyApp>  {
         ),
         routes: <String, WidgetBuilder>{
           '/home': (BuildContext context) => new Home(),
+          '/new_star': (BuildContext context) => new new_star(),
 
         },
         home: (_loginStatus==1)?Home():Signin()
