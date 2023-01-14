@@ -143,8 +143,8 @@ class _new_starState extends State<new_star> {
       //starname});
 
     } else {
-      //Navigator.pushReplacementNamed(context, "/dup_village",arguments: {"village_name" :
-      //villagename});
+      Navigator.pushReplacementNamed(context, "/dup_star",arguments: {"star_name" :
+      starname});
     }
 
   }
